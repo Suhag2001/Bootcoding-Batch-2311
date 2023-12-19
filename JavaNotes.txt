@@ -1,6 +1,5 @@
 JAVA OVERVIEW
 
-
 • Java was developed by James Gosling, Patrick Naughton, Mike Sheridan at
 Sun Microsystems Inc. in 1991. It took 18 months to develop the first working
 version.
