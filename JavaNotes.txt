@@ -1,0 +1,349 @@
+JAVA OVERVIEW
+
+
+• Java was developed by James Gosling, Patrick Naughton, Mike Sheridan at
+Sun Microsystems Inc. in 1991. It took 18 months to develop the first working
+version.
+• The initial name was Oak but it was renamed to Java in 1995 as OAK was a
+registered trademark of another Tech company.
+
+Application of Java
+
+Java is widely used in every corner of world and of human life. Java is not only
+used in software but is also widely used in designing hardware controlling
+software components. There are more than 930 million JRE downloads each
+year and 3 billion mobile phones run java.
+
+Followinq are some other usage of Java :
+-Developing Desktop Applications
+-Web Applications like Linkedin.com, Snapdeal.com
+-Mobile Operating System like Android
+-Embedded Systems
+-Robotics and games etc.
+
+
+Features Of Java
+
+Simple
+Object-Oriented
+Portable
+Platform independent
+Secured
+Robust
+Architecture neutral
+Interpreted
+High Performance
+Multithreaded
+Distributed
+Dynamic
+
+
+
+
+Java Naming Conventions:
+
+Classes and Interfaces:
+Class names should be nouns, in mixed case but first letter should be in Uppercase.
+Interface names follow the same rule.
+Avoid acronyms(short forms eg.LOL) and abbreviations(short forms eg.incl.,comp.).
+Examples:
+interface Bicycle
+class MountainBike 
+
+Methods:
+Methods should be verbs, in mixed case.
+First letter lowercase, with internal words capitalized.
+Examples:
+void changeGear(int newValue);
+void speedUp(int increment);
+void applyBrakes(int decrement);
+
+Variables:
+Short yet meaningful names.
+Can start with '_' or '$'.
+Mnemonic(purpose), indicating intent of use.
+Avoid one-character names, except for temporary variables.
+Examples:
+int speed = 0;
+int gear = 1;
+
+Constant Variables:
+Uppercase with underscores(_).
+Used for predefined classes like Float, Long, String.
+Examples:
+static final int MIN_WIDTH = 4;
+public static final float POSITIVE_INFINITY = 1.0f / 0.0f;
+
+
+
+
+Comments in Java:
+
+Purpose:
+Comments are non-executable text used to explain code.
+That enh
+ance code readability and provide insights to developers.
+
+Types:
+Single-Line Comments: Begin with // and extend to the end of the line.
+Example:
+// This is a single-line comment
+
+
+Multi-Line Comments: Enclosed between /* and */.
+Example:
+/*
+This is a
+multi-line comment
+*/
+
+Usage of Comments:
+Explain complex logic, provide context, or document code.
+Use comments sparingly; write self-explanatory code when possible.
+Example:
+int result = x + y;  // Calculate the sum of x and y
+
+
+Primitive Data Types:
+
+1) byte: 8-bit(1 Byte) signed integer.
+Example:
+byte myByte = 127;
+
+short: 16-bit(2 Byte) signed integer.
+Example:
+short myShort = 32000;
+
+int: 32-bit(4 Byte) signed integer.
+Example:
+int myInt = 2147483647;
+
+long: 64-bit(8 Byte) signed integer.
+Example:
+long myLong = 9223372036854775807L;
+
+float: 32-bit(4 Byte) floating-point.
+Example:
+float myFloat = 3.14f;(using f suffix)
+
+double: 64-bit(8 Byte) floating-point. 
+Example:
+double myDouble = 3.141592653589793;
+
+char: 16-bit(2 Byte) Unicode character.
+Example:
+char myChar = 'A';
+
+boolean: Represents true or false.
+Example:
+boolean myBoolean = true;
+
+Reference Data Types:
+
+String: A sequence of characters.
+Example:
+String myString = "Hello, Java!";
+
+Arrays: Ordered collection of elements.
+Example:
+int[] myArray = {1, 2, 3, 4, 5};
+
+Classes: User-defined data types.
+Example:
+class MyClass {
+    // Class members and methods
+}
+MyClass myObject = new MyClass();
+
+
+Literals:
+A literal in programming refers to the notation of expressing values directly in the source code of a program.
+
+Examples of literals:
+Numeric literals: 42, 3.14f.
+String literals: "Hello, World!", "Java".
+Character literals: 'A', '5'.
+
+Identifiers:
+An identifier is a name given to a programming element, such as a variable, method, class, or package.
+
+Examples of identifiers:
+Variable identifier: myVariable, totalAmount.
+Method identifier: calculateTotal, displayMessage.
+Class identifier: MyClass, AnotherClass.
+Package identifier: com.example.myapp.
+
+*Stack and Heap Memory 
+
+primitive variables are store into the stack memory 
+
+Reference variables are store into the heap memory
+
+There are three types of Variables : 
+
+1. Local Variable
+
+A variable defined within a block or method or constructor is called a local variable. 
+
+2. Instance Variable
+
+Instance variables are declared in a class outside of any method, constructor, or block. 
+
+3. Static Variable
+
+static variables are declared in a class outside of any method, constructor, or block by using static keyword. 
+
+
+
+Operators in Java: 
+
+1) Arithmetic Operator :
+
++ : Addition
+- : Subtraction
+* : Multiplication
+/ : Division
+% : Modulus
+
+2) Assignment Operator :
+
+=  : Simple assignment
++= : Add and assign
+-= : Subtract and assign
+*= : Multiply and assign
+/= : Divide and assign
+%= : Modulus and assign
+
+3)Increament and Decreament Operator :
+
+a++ : Post-increment
+++a : Pre-increment
+a-- : Post-decrement
+--a : Pre-decreament
+
+4) Relational Operator :
+
+== : Equal to
+!= : Not equal to
+>  : Greater than
+<  : Less than
+>= : Greater than or equal to
+<= : Less than or equal to
+
+5) Logical Operator :
+
+&& : Logical AND
+|| : Logical OR
+!  : Logical NOT
+
+6) Ternary Operator : 
+
+? : Ternary Operator
+
+result = (condition) ? valueIfTrue : valueIfFalse
+
+
+
+Type Conversion (Type Casting / Casting)  :
+ 
+Type casting is the process of converting a variable from one data type to another
+
+
+Implicit Type Casting (Automatic Type Casting)(Widening):
+
+Java automatically performs implicit casting when converting from a smaller data type to a larger data type.
+
+For example, converting an int to a double or a byte to an int is done implicitly.
+(int --> double)(byte --> int)
+
+It is safe because there is no chance to lose data.
+
+Explicit Casting (Manual Type Casting)(Narrowing):
+
+Explicit casting is required when converting from a larger data type to a smaller data type.
+
+It involves placing the desired data type in parentheses before the variable to be cast.
+ex. loverVariable = (target Data Type) higherVariable
+
+It's not safe because there is more chances to lose data
+
+                         
+Type Conversion between integers and string 
+
+
+Integer to String : 
+
+1.Integer.toString(intValue);
+2.String.valueOf(intValue);
+3.String.formate("%d",intValue);						 
+4.String concatination ;
+
+String to Integer : 
+1.Integer.parseInt(strValue);
+2.Integer.valueOf(strValue);
+3.By using Scanner class	
+
+
+Java Control Flow Statements : 		
+
+-Decision Making statements : decision-making statements decide which statement to execute and when.
+
+1)if statements
+2)switch statement
+
+-Loop statements : A loop is a control flow structure that iteratively executes a set of 
+instructions based on a specified condition or over a sequence of elements, automating repetitive tasks in the code..
+
+1)for loop      : Use it If the number of iteration is fixed, it is recommended to use for loop.
+
+2)while loop    : Use it If the number of iteration is not fixed, it is  recommended to use while loop.
+
+3)do while loop :Use it if the number of iteration is not fixed and you must have to execute the loop at least once.
+
+4)for-each loop : The for-each loop is used to traverse array or collection in Java. 
+                 It is easier to use than simple for loop because we don't need to increment
+				 value and use subscript notation.
+
+-Jump statements : Jump statements are used to transfer the control of the program to the specific statements.
+
+1)break statement  : The Java break statement is used to break loop or switch statement. 
+                     It breaks the current flow of the program at specified condition.
+					 
+2)continue statement : The continue statement is used in loop control structure when you need to jump to the next iteration of the loop immediately.			 
+						 
+
+Scanner class in java :
+
+-The Scanner class of the java.util package is used to read input data from different sources 
+like input streams, users, files, etc.
+
+nextInt()	reads an int value from the user
+nextFloat()	reads a float value form the user
+nextBoolean()	reads a boolean value from the user
+nextLine()	reads a line of text from the user
+next()	reads a word from the user
+nextByte()	reads a byte value from the user
+nextDouble()	reads a double value from the user
+nextShort()	reads a short value from the user
+nextLong()	reads a long value from the user
+next.charAt(0) reads only one charactor 						
+						
+	
+
+System class in Java : 
+
+ -The System class in Java is a final class that belongs to the java.lang package.
+ -It contains several useful class fields and methods, and it cannot be instantiated.	
+ 
+ These are three refference variables are use for i/o operations :
+ 
+  public static final java.io.InputStream in;
+  public static final java.io.PrintStream out;
+  public static final java.io.PrintStream err;
+  
+				
+Command Line Arguments : 
+
+-The java command-line argument is an argument i.e. passed at the time of running the java program.
+
+-The arguments passed from the console can be received in the java program and it can be used as an input.				

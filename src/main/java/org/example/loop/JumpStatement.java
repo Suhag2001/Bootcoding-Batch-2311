@@ -1,4 +1,4 @@
-package org.example.data_type;
+package org.example.loop;
 
 class JumpStatement {
     public static void main(String args[]) {
