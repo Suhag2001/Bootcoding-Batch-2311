@@ -346,3 +346,13 @@ Command Line Arguments :
 -The java command-line argument is an argument i.e. passed at the time of running the java program.
 
 -The arguments passed from the console can be received in the java program and it can be used as an input.				
+
+
+
+Method : 
+
+-In Java, a method is a block of code that performs a specific task. 
+-Methods are also commonly known as functions.
+-Each method has its name. 
+-You can pass data into a method via parameters. 
+-A method also has a return type defining the type of data it returns.
