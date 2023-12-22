@@ -33,6 +33,5 @@ class WhileLoop {
             System.out.println("given number is not a palindrome number");
         }
 
-
     }
 }

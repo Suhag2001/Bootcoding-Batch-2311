@@ -356,3 +356,79 @@ Method :
 -Each method has its name. 
 -You can pass data into a method via parameters. 
 -A method also has a return type defining the type of data it returns.
+
+
+Method signature : 
+-In Java, a method signature is part of the method declaration. 
+-It's the combination of the method name and the parameter list.
+
+
+Method declaration
+
+In general, method declaration has the following components: 
+
+Access Modifier: 
+-Defines the access type i.e. from where the method can be accessed in your program e.g. public, private,protected and default . 
+-It is public in this case, which means this method can be accessed outside of the class too.
+
+Return Type: 
+-The data type of the value that the method returns. 
+-In this case, it is void i.e. does not return anything.
+
+Method Name: 
+-It is the name of the method by which it will be called in our program. 
+-The name of our method is printName.
+
+Parameter List: 
+-It is the list of data that needs to be passed into the method. 
+-It is comma-separated and each input data is preceded by its datatype. 
+-If there is no data to be passed the brackets () are left empty. 
+-We have passed one parameter name of type String.
+
+Method body: 
+-It consists of the code that needs to be executed enclosed within curly braces {}.
+
+
+Method Calling  :
+
+ -To call a method, you need to define it, 
+ -create an instance of the class (if needed), 
+ -and call the method using the name and any arguments it takes
+ 
+ 
+The flow of method execution in Java is as follows:
+
+-The program starts executing at the main method, which is the entry point for the program.
+
+-The main method can call other methods or execute statements within its body.
+
+-When a method is called, the control of the program is transferred to the method that is called.
+
+-The called method executes its statements in sequence.
+
+-When the called method finishes executing, the control of the program is transferred back to the main method  .
+
+-The program continues executing in this way until the main method finishes executing.
+
+
+Method Parameter : Parameters refers to the list of variables in a method declaration. 
+
+Method Arguments : Arguments are the actual values that are passed in when the method is invoked. 
+
+Return Type : 
+
+-A method can return at most one value. The method signature specifies the return type, which can be a primitive (int, double, boolean), a class (String, User-defined class, Collection classes etc), or void  .
+
+
+Math Methods : There are lots of Pre-defined methods are available in java for doing some mathemetical operations , you can use it by using Math class .
+
+Here is a list of useful Math methods in Java:
+
+abs(int a): : This method returns the absolute value of an integer.
+ceil(double a): : This method returns the smallest integer greater than or equal to a given double.
+round(double a): : This method returns the rounded value of a double.
+floor(double a): : This method returns the largest integer less than or equal to a given double.
+max(int a, int b): : This method returns the larger of two integers.
+pow(double a, double b): : This method returns the power of a double to another double.
+random(): : This method returns a random double between 0.0 and 1.0.
+sqrt(double a): : This method returns the square root of a double.

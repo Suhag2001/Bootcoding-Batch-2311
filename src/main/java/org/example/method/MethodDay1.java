@@ -2,12 +2,12 @@ package org.example.method;
 
 import java.util.Scanner;
 
-public class Method {
+public class MethodDay1 {
 
 //    retrun_type method_name(){
 //        //code
 //    }
-   static void printName(){
+       static void printName(){
         System.out.println("Bootcodig");
        System.out.println(1+2);
     }
@@ -34,5 +34,7 @@ public class Method {
         System.out.println(sub2);
 
         System.out.println("this is second line ");
+
+
     }
 }
