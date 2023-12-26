@@ -429,6 +429,46 @@ ceil(double a): : This method returns the smallest integer greater than or equal
 round(double a): : This method returns the rounded value of a double.
 floor(double a): : This method returns the largest integer less than or equal to a given double.
 max(int a, int b): : This method returns the larger of two integers.
+min(int a ,  int b )
 pow(double a, double b): : This method returns the power of a double to another double.
 random(): : This method returns a random double between 0.0 and 1.0.
 sqrt(double a): : This method returns the square root of a double.
+
+
+Array : An array is a data structure that stores a collection of elements of the same data type .
+
+
+Creation of an Array :  There are three ways to create an array object
+
+ 1)   int[] arr = {1,2,3,4,5};
+ 2)   int[] arr = new int[5];
+ 3)   int[] arr = new int[]{1,2,3,4,5};
+
+Memory Allocation:
+-Arrays are allocated contiguous memory locations(next to each other) to store elements of the specified data type . 
+-The size of the array, once determined, remains fixed.
+
+Indexing:
+-Java arrays are zero-indexed, meaning the index of the first element is 0, the second element is at index 1, and so on. 
+-The elements are accessed using square bracket notation: array[index].
+
+Type-Specific:
+-Java arrays are type-specific, meaning they can only hold elements of the specified data type. 
+-For example, if you declare an array of integers, you cannot store other types of data in that array.
+
+Length Property:
+-Every array in Java has a length property that indicates the number of elements in the array. 
+-This property is accessed using the syntax array.length.
+	
+Immutable Size:
+-The size of an array in Java is fixed once it is created. 
+
+Performance:
+-Array access is very fast and efficient because it involves simple pointer arithmetic. 
+-Retrieving an element from an array using its index is a constant-time operation.
+
+Bounds Checking:
+-Java performs bounds checking to ensure that you do not access elements outside the valid index range.
+-If you try to access an element with an index that is less than 0 or greater than or equal to the array length, 
+-an ArrayIndexOutOfBoundsException is thrown.
+
