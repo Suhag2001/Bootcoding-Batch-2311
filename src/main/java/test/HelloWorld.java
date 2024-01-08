@@ -1,10 +1,13 @@
 package test;
 
-import java.util.Scanner;
-class HelloWorld{
-public static void main(String args[]){
+import java.util.Arrays;
+import java.util.List;
 
-System.out.print("Hello World");
-}
+class HelloWorld {
+    public static void main(String args[]) {
+
+        System.out.println("Hello World");
+
+    }
 }
 
